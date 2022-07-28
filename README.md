@@ -44,7 +44,7 @@ You can checkout the [Nodemailer doc](https://nodemailer.com/smtp/) to set up yo
 You can check the swagger doc using `http://localhost:{port-number}/api` for example, if your port number is set to the default `3000`;
 
 - Run the app
-- Run this on your browser[http://localhost:3000/api](http://localhost:3000/api)
+- Run this on your browser [http://localhost:3000/api](http://localhost:3000/api)
 
 ## Running the app
 
