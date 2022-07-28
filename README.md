@@ -25,12 +25,26 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A simple Api that send mail notification and can be used as a 3rd Party Api to send out notification to E-mail notification to any user.
 
 ## Installation
 
 ```bash
 $ npm install
 ```
+
+## Set up
+
+Replace the env with an accurate info to set up your mail.
+The default mail service for this app is configured to yahoo, you can have it changed to your preferred provider.
+You can checkout the [Nodemailer doc](https://nodemailer.com/smtp/) to set up your mail.
+
+## Documentation
+
+You can check the swagger doc using `http://localhost:{port-number}/api` for example, if your port number is set to the default `3000`;
+
+- Run the app
+- Run this on your browser[http://localhost:3000/api](http://localhost:3000/api)
 
 ## Running the app
 
