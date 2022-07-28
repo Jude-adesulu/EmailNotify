@@ -20,7 +20,7 @@ export class EmailService {
         pass: this.configService.get<string>(configConstant.mail.password),
       },
       debug: false,
-      //   logger: true,
+      logger: true,
     });
   }
 
